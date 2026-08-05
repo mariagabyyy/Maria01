@@ -1,21 +1,624 @@
-MIT License
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-Copyright (c) 2026 mariagabyyy
+<head>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+    <title>Fran Beauty | Catálogo Oficial</title>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+
+    <header>
+
+        <div class="logo">
+
+            <h1>FRAN BEAUTY</h1>
+
+            <p>Catálogo de Produtos Franciny Ehlke</p>
+
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#inicio">Início</a></li>
+
+                <li><a href="#produtos">Produtos</a></li>
+
+                <li><a href="#sobre">Sobre</a></li>
+
+                <li><a href="#contato">Contato</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- Banner -->
+
+    <section id="inicio" class="banner">
+
+        <div class="banner-texto">
+
+            <h2>Conheça a linha de maquiagens da Franciny Ehlke</h2>
+
+            <p>
+
+                Produtos desenvolvidos para oferecer alta qualidade,
+
+                longa duração e acabamento profissional.
+
+            </p>
+
+            <button>Ver Catálogo</button>
+
+        </div>
+
+    </section>
+
+    <!-- Pesquisa -->
+
+    <section class="pesquisa">
+
+        <input
+
+            type="text"
+
+            id="pesquisa"
+
+            placeholder="Pesquisar produto..."
+
+        >
+
+    </section>
+
+    <!-- Categorias -->
+
+    <section class="categorias">
+
+        <button class="ativo">Todos</button>
+
+        <button>Base</button>
+
+        <button>Corretivo</button>
+
+        <button>Pó</button>
+
+        <button>Gloss</button>
+
+        <button>Batom</button>
+
+        <button>Primer</button>
+
+        <button>Paletas</button>
+
+        <button>Máscara</button>
+
+        <button>Delineador</button>
+
+    </section>
+
+    <!-- Produtos -->
+
+    <main id="produtos">
+
+        <div class="card">
+
+            <img src="imagens/base.jpg" alt="Base Real Filter">
+
+            <h2>Base Real Filter</h2>
+
+            <h3>Franciny Ehlke</h3>
+
+            <p>
+
+                Base líquida de alta cobertura,
+
+                acabamento matte,
+
+                resistente à água,
+
+                longa duração,
+
+                textura leve.
+
+            </p>
+
+            <ul>
+
+                <li>Cobertura Alta</li>
+
+                <li>Oil Free</li>
+
+                <li>Longa Duração</li>
+
+                <li>Não Craquela</li>
+
+            </ul>
+
+            <span class="preco">
+
+                R$ 89,90
+
+            </span>
+
+            <button>
+
+                Comprar
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagens/corretivo.jpg" alt="Corretivo Stick">
+
+            <h2>Corretivo Stick Cover</h2>
+
+            <h3>Franciny Ehlke</h3>
+
+            <p>
+
+                Cobertura uniforme,
+
+                acabamento natural,
+
+                fácil aplicação.
+
+            </p>
+
+            <ul>
+
+                <li>Alta Cobertura</li>
+
+                <li>Fácil Esfumar</li>
+
+                <li>Longa Duração</li>
+
+                <li>Textura Cremosa</li>
+
+            </ul>
+
+            <span class="preco">
+
+                R$ 54,90
+
+            </span>
+
+            <button>
+
+                Comprar
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagens/po.jpg" alt="Pó Facial">
+
+            <h2>Pó Solto Plush</h2>
+
+            <h3>Franciny Ehlke</h3>
+
+            <p>
+
+                Controla oleosidade,
+
+                acabamento aveludado,
+
+                efeito soft focus.
+
+            </p>
+
+            <ul>
+
+                <li>Matte</li>
+
+                <li>Leve</li>
+
+                <li>Fixa Maquiagem</li>
+
+                <li>Controle de Brilho</li>
+
+            </ul>
+
+            <span class="preco">
+
+                R$ 69,90
+
+            </span>
+
+            <button>
+
+                Comprar
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagens/gloss.jpg" alt="Gloss">
+
+            <h2>Gloss LipHoney</h2>
+
+            <h3>Franciny Ehlke</h3>
+
+            <p>
+
+                Brilho intenso,
+
+                hidratação,
+
+                efeito espelhado.
+
+            </p>
+
+            <ul>
+
+                <li>Ácido Hialurônico</li>
+
+                <li>Vitamina E</li>
+
+                <li>Alta Pigmentação</li>
+
+            </ul>
+
+            <span class="preco">
+
+                R$ 42,90
+
+            </span>
+
+            <button>
+
+                Comprar
+
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- Sobre -->
+
+    <section id="sobre">
+
+        <h2>Sobre a Marca</h2>
+
+        <p>
+
+            A linha de maquiagens da Franciny Ehlke foi criada para unir
+
+            tecnologia, beleza e alta performance.
+
+            Seus produtos são conhecidos pela qualidade,
+
+            acabamento profissional
+
+            e excelente custo-benefício.
+
+        </p>
+
+    </section>
+
+    <!-- Rodapé -->
+
+    <footer id="contato">
+
+        <h3>Projeto Educacional</h3>
+
+        <p>
+
+            Desenvolvido para fins acadêmicos.
+
+        </p>
+
+        <p>
+
+            Catálogo inspirado na linha de maquiagens da Franciny Ehlke.
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#fff6fb;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+    background:#ff4fa2;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    position:sticky;
+    top:0;
+    z-index:999;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.logo h1{
+    font-size:34px;
+    letter-spacing:2px;
+}
+
+.logo p{
+    font-size:14px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav li{
+    margin-left:30px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffe2ef;
+}
+
+/* ===========================
+   BANNER
+=========================== */
+
+.banner{
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg,#ff4fa2,#ff8ec8);
+    color:#fff;
+    text-align:center;
+    padding:30px;
+}
+
+.banner h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.banner p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:30px;
+}
+
+.banner button{
+    background:#fff;
+    color:#ff4fa2;
+    border:none;
+    padding:15px 40px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:17px;
+    font-weight:bold;
+    transition:.4s;
+}
+
+.banner button:hover{
+    transform:scale(1.08);
+    background:#ffd7ea;
+}
+
+/* ===========================
+   PESQUISA
+=========================== */
+
+.pesquisa{
+    display:flex;
+    justify-content:center;
+    margin:40px;
+}
+
+.pesquisa input{
+    width:600px;
+    padding:15px;
+    border-radius:30px;
+    border:2px solid #ff4fa2;
+    font-size:18px;
+    outline:none;
+}
+
+/* ===========================
+   CATEGORIAS
+=========================== */
+
+.categorias{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+}
+
+.categorias button{
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+    background:#ffc0dd;
+    cursor:pointer;
+    transition:.3s;
+    font-weight:bold;
+}
+
+.categorias button:hover{
+    background:#ff4fa2;
+    color:#fff;
+}
+
+.categorias .ativo{
+    background:#ff4fa2;
+    color:#fff;
+}
+
+/* ===========================
+   PRODUTOS
+=========================== */
+
+main{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:35px;
+    padding:50px;
+}
+
+.card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+.card h2{
+    font-size:25px;
+    margin:20px;
+    color:#ff4fa2;
+}
+
+.card h3{
+    margin:0 20px;
+    color:#555;
+}
+
+.card p{
+    margin:20px;
+    text-align:justify;
+}
+
+.card ul{
+    margin:20px 40px;
+}
+
+.card li{
+    margin-bottom:8px;
+}
+
+.preco{
+    display:block;
+    font-size:28px;
+    font-weight:bold;
+    color:#ff0080;
+    margin:20px;
+}
+
+.card button{
+    width:90%;
+    margin:20px auto;
+    display:block;
+    border:none;
+    padding:15px;
+    border-radius:12px;
+    background:#ff4fa2;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.4s;
+}
+
+.card button:hover{
+    background:#d8006d;
+}
+
+/* ===========================
+   SOBRE
+=========================== */
+
+#sobre{
+    padding:70px;
+    background:white;
+}
+
+#sobre h2{
+    text-align:center;
+    color:#ff4fa2;
+    margin-bottom:30px;
+    font-size:35px;
+}
+
+#sobre p{
+    max-width:900px;
+    margin:auto;
+    text-align:justify;
+    font-size:18px;
+}
+
+/* ===========================
+   RODAPÉ
+=========================== */
+
+footer{
+    background:#ff4fa2;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+footer h3{
+    margin-bottom:15px;
+}
+
+footer p{
+    margin-bottom:10px;
+}
